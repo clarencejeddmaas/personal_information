@@ -11,7 +11,7 @@ while True:
     if another_entry.lower() == 'no':
         break
 
-with open("./personal_info.txt", "w") as file_handle:
+with open("./personal_info.txt", "a") as file_handle:
     file_handle.write(input("Enter your full name: "))
     file_handle.write(input("Enter your age: "))
     file_handle.write(input("Enter your date of birth: "))
