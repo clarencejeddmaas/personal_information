@@ -1,3 +1,12 @@
+# start using while loop
+# set variable for a specific type of information for a user to input, such as full name, age, date of birth, address, phone number, and email address
+# ask user to input full name, age, date of birth, address, phone number, and email address, then store it
+# open "personal_info.txt" in append method
+# write the full name, age, address, phone number, and email address with proper label and newlines
+# ask user if it wants to input another entry
+# if the user enters 'yes', the program will ask the user again for another input
+# if the user enters 'no', the loop will break out
+
 while True:
     full_name = input("Enter your name: ")
     age = (input("Enter your age: "))
