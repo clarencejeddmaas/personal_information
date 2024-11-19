@@ -6,6 +6,11 @@ while True:
     number = (input("Enter your phone number: "))
     email = input("Enter your email address: ")
 
+    another_entry = input("Do you want another entry? (YES/NO): ")
+
+    if another_entry.lower() == 'no':
+        break
+
 with open("./personal_info.txt", "w") as file_handle:
     file_handle.write(input("Enter your full name: "))
     file_handle.write(input("Enter your age: "))
