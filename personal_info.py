@@ -1,3 +1,5 @@
+while True:
+    
 with open("./personal_info.txt", "w") as file_handle:
     file_handle.write(input("Enter your full name: "))
     file_handle.write(input("Enter your age: "))
