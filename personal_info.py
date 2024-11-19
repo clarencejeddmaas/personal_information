@@ -14,3 +14,9 @@ while True:
         file_handle.write(f"Address: {address}\n")
         file_handle.write(f"Phone Number: {number}\n")
         file_handle.write(f"E-mail address: {email}\n")
+
+    another_entry = input("Do you want another entry? (YES/NO): ")
+
+    if another_entry.lower() == 'no':
+        break
+
