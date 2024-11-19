@@ -1,5 +1,11 @@
 while True:
-    
+    full_name = input("Enter your name: ")
+    age = (input("Enter your age: "))
+    birthday = input("Enter date of birth: ")
+    address = input("Enter your address: ")
+    number = (input("Enter your phone number: "))
+    email = input("Enter your email address: ")
+
 with open("./personal_info.txt", "w") as file_handle:
     file_handle.write(input("Enter your full name: "))
     file_handle.write(input("Enter your age: "))
