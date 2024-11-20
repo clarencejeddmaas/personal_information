@@ -8,8 +8,8 @@ while True:
         lines = data.split("\n\n")
         for line in lines:
             if find_fullname in line:
-                print("Information found!"
-                print(line.strip()
+                print("Information found!")
+                print(line.strip())
                 
                 found = True 
 
