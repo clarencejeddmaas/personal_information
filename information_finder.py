@@ -16,3 +16,5 @@ with open("./personal_information.txt", "r") as file_handle:
 
 if not found:
     print(f"No information found for {find_fullname}.")
+
+another_search = input("Do you want another search? (YES/NO): ")
