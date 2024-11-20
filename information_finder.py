@@ -7,7 +7,7 @@ while True:
         data = file_handle.read()
         lines = data.split("\n\n")
         for line in lines:
-            if find_fullname in line
+            if find_fullname in line:
                 print("Information found!")
                 print(line.strip())
                 
