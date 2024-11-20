@@ -26,7 +26,7 @@ while True:
                 
                 found = True 
 
-                break
+                brake
 
     if not found:
         print(f"No information found for {find_fullname}.")
