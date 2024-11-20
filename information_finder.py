@@ -3,7 +3,7 @@ while True:
 
     found = False
 
-    with open("./personal_information.txt", "r") as file_handle
+    with open("./personal_information.txt", "r") as file_handle:
         data = file_handle.read()
         lines = data.split("\n\n")
         for line in lines:
