@@ -10,7 +10,7 @@ with open("./personal_information.txt", "r") as file_handle:
             print("Information found!")
             print(line.strip())
             
-            found = True 
+            found True 
 
             break
 
