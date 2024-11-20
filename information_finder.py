@@ -1,0 +1,1 @@
+with open("./personal_information.txt", "r") as file_handle:
