@@ -19,5 +19,5 @@ while True:
         print(f"No information found for {find_fullname}.")
 
     another_search = input("\nDo you want another search? (YES/NO): ")
-    if another_search.lower() == "no"
+    if another_search.lower() == "no":
         print("Program exiting. Thank you.")
