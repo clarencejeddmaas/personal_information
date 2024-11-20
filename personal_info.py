@@ -8,11 +8,11 @@
 # if the user enters 'no', the loop will break out
 
 while True:
-    full_name = input("Enter your full name: ")
-    age = (input("Enter your age: "))
+    full_name = input("Enter your full name (including middle name): ")
+    age = (input("Enter your age (numeric characters only): "))
     birthday = input("Enter date of birth (YYYY-MM-DD): ")
     address = input("Enter your address: ")
-    number = (input("Enter your phone number: "))
+    number = (input("Enter your phone number (numeric characters only): "))
     email = input("Enter your email address: ")
 
     with open("./personal_information.txt", "a") as file_handle:
