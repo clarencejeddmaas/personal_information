@@ -9,3 +9,5 @@ with open("./personal_information.txt", "r") as file_handle:
         if find_fullname in line:
             print("Information found!")
             print(line.strip())
+            
+            found = True 
