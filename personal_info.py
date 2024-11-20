@@ -8,7 +8,7 @@
 # if the user enters 'no', the loop will break out
 
 while True:
-    full_name = input("Enter your name: ")
+    full_name = input("Enter your full name: ")
     age = (input("Enter your age: "))
     birthday = input("Enter date of birth: ")
     address = input("Enter your address: ")
@@ -17,7 +17,7 @@ while True:
 
     with open("./personal_information.txt", "a") as file_handle:
         file_handle.write("\nPersonal Information\n")
-        file_handle.write(f"Name: {full_name}\n")
+        file_handle.write(f"\nName: {full_name}\n")
         file_handle.write(f"Age: {age}\n")
         file_handle.write(f"Date of Birth: {birthday}\n")
         file_handle.write(f"Address: {address}\n")
