@@ -6,4 +6,5 @@ with open("./personal_information.txt", "r") as file_handle:
     data = file_handle.read()
     lines = data.split("\n\n")
     for line in lines: 
+        if find_fullname in line:
         print(line.strip())
