@@ -15,7 +15,7 @@ with open("./personal_information.txt", "r") as file_handle:
             break
 
 if not found:
-    print("No information found for ", find_fullname)
+    print(f"No information found for {find_fullname}.")
 
 another_search = input("\nDo you want another search? (YES/NO): \n")
 if another_search.lower() == "no":
