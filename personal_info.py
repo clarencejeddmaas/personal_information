@@ -10,7 +10,7 @@
 while True:
     full_name = input("Enter your full name: ")
     age = (input("Enter your age: "))
-    birthday = input("Enter date of birth: ")
+    birthday = input("Enter date of birth (YYYY-MM-DD): ")
     address = input("Enter your address: ")
     number = (input("Enter your phone number: "))
     email = input("Enter your email address: ")
