@@ -13,3 +13,6 @@ with open("./personal_information.txt", "r") as file_handle:
             found = True 
 
             break
+
+if not found:
+    print(f"No information found for {find_fullname}.")
