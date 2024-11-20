@@ -1,5 +1,4 @@
 while True: 
-
     find_fullname = input("Enter a full name to search: ")
 
     found = False
