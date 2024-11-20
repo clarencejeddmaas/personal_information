@@ -8,7 +8,7 @@ with open("./personal_information.txt", "r") as file_handle:
     for line in lines:
         if find_fullname in line:
             print("Information found!")
-            print(line.strip())
+            print(line.strip)
             
             found = True 
 
