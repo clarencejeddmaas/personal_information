@@ -1,22 +1,24 @@
-find_fullname = input("Enter a full name to search: ")
+while True: 
 
-found = False
+    find_fullname = input("Enter a full name to search: ")
 
-with open("./personal_information.txt", "r") as file_handle:
-    data = file_handle.read()
-    lines = data.split("\n\n")
-    for line in lines:
-        if find_fullname in line:
-            print("Information found!")
-            print(line.strip())
-            
-            found = True 
+    found = False
 
-            break
+    with open("./personal_information.txt", "r") as file_handle:
+        data = file_handle.read()
+        lines = data.split("\n\n")
+        for line in lines:
+            if find_fullname in line:
+                print("Information found!")
+                print(line.strip())
+                
+                found = True 
 
-if not found:
-    print(f"No information found for {find_fullname}.")
+                break
 
-another_search = input("\nDo you want another search? (YES/NO): ")
-if another_search.lower() == "no":
-    print("Program exiting. Thank you.")
+    if not found:
+        print(f"No information found for {find_fullname}.")
+
+    another_search = input("\nDo you want another search? (YES/NO): ")
+    if another_search.lower() == "no":
+        print("Program exiting. Thank you.")
