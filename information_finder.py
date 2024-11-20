@@ -11,7 +11,7 @@ while True:
                 print("Information found!")
                 print(line.strip())
                 
-                found = True 
+                found True 
 
                 break
 
